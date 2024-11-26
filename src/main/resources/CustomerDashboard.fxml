@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="402.0" prefWidth="623.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="pastryshop.CustomerDashboardController">
+   <children>
+      <Text layoutX="33.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to our Pastry Shop,  Make Your Day Sweeter!" wrappingWidth="516.89453125">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="33.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Customer Name,  ID" wrappingWidth="230.515625">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <TextArea layoutX="33.0" layoutY="150.0" prefHeight="200.0" prefWidth="312.0" />
+      <Text layoutX="41.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Today's Offer and Discount-" wrappingWidth="196.515625">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Line endX="286.0" layoutX="124.0" layoutY="64.0" startX="-100.0" />
+      <Button layoutX="420.0" layoutY="118.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="160.0" text="Explore Products">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="420.0" layoutY="165.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="160.0" text="Cart and Checkout">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="420.0" layoutY="212.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="160.0" text="Order History">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="420.0" layoutY="257.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="160.0" text="Profile">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="420.0" layoutY="306.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="160.0" text="LogOut">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
