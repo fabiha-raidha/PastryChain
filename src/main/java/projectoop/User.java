@@ -1,4 +1,4 @@
-package ProjectOop;
+package projectoop;
 
 public class User {
 

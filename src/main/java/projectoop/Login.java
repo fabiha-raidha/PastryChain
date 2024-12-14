@@ -1,12 +1,12 @@
-package ProjectOop;
+package projectoop;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 
+import javax.imageio.IIOException;
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.Objects;
 
 public class Login {
@@ -29,14 +29,14 @@ public class Login {
     }
 
     @FXML
-    public void LoginOnActionButton(ActionEvent actionEvent) {
+    public void LoginOnActionButton(ActionEvent actionEvent) throws IIOException {
         this.messageLabel.setText("");
         int id = Integer.parseInt(this.userIDtextfield.getText());
         String password = this.passwordtextfield.getText();
-        Iterator var4 = this.userArrayList.iterator();
 
-        while(var4.hasNext()) {
-            User u = (User)var4.next();
+        ArrayList<User> arrayList = this.userArrayList;
+        for (int i = 0; i < arrayList.size(); i++) {
+            User u = arrayList.get(i);
             if (u.getUserId() == id && Objects.equals(u.getPassword(), password)) {
                 this.messageLabel.setText("Login Successful");
                 break;
@@ -44,6 +44,8 @@ public class Login {
 
             this.messageLabel.setText("Login Unsuccessful");
         }
+
+
     }
 
 }

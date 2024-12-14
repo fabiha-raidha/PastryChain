@@ -1,4 +1,4 @@
-package ProjectOop;
+package projectoop;
 
 public class Deliverymanagement {
     String DriverName;
@@ -22,10 +22,7 @@ public class Deliverymanagement {
 
     @Override
     public String toString() {
-        return "Deliverymanagement{" +
-                "DriverName='" + DriverName + '\'' +
-                ", OrderCode='" + OrderCode + '\'' +
-                '}';
+        return STR."Deliverymanagement{DriverName='\{DriverName}', OrderCode='\{OrderCode}'}";
     }
 
     public Deliverymanagement(String driverName, String orderCode) {
