@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="532.0" prefWidth="391.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Training">
+<AnchorPane prefHeight="532.0" prefWidth="391.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projectoop.TrainingSchedulecontroller">
    <children>
       <ComboBox fx:id="drivercombobox" layoutX="90.0" layoutY="67.0" prefWidth="150.0" />
       <Label fx:id="driverLabel" layoutX="39.0" layoutY="71.0" text="Driver" />
