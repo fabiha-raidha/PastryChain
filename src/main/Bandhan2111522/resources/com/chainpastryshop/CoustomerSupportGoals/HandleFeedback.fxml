@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.chainpastryshop.controllers.CustomerSupportController">
+    <Label text="Feedback &amp; Complaints" layoutX="50" layoutY="50" style="-fx-font-size: 24px;"/>
+    <TextArea fx:id="feedbackArea" layoutX="50" layoutY="100" prefWidth="300" prefHeight="200" promptText="Enter your feedback or complaint"/>
+    <Button text="Submit Feedback" layoutX="50" layoutY="320" onAction="#submitFeedback"/>
+    <Button text="Escalate Feedback" layoutX="200" layoutY="320" onAction="#escalateFeedback"/>
+    <Button text="Back" layoutX="150" layoutY="370" onAction="#goBack"/>
+</AnchorPane>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="376.0" prefWidth="536.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23.0.1" fx:controller="com.chainpastryshop.controllers.CustomerSupportController">
+    <Label layoutX="142.0" layoutY="37.0" style="-fx-font-size: 24px;" text="Respond to Inquiry" />
+    <TextArea fx:id="inquiryDetails" layoutX="102.0" layoutY="100.0" prefHeight="200" prefWidth="324.0" promptText="Enter inquiry details" />
+    <Button layoutX="148.0" layoutY="326.0" onAction="#respondToInquiry" text="Respond" />
+    <Button layoutX="366.0" layoutY="326.0" onAction="#goBack" text="Back" />
+</AnchorPane>

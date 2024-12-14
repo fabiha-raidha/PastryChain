@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.chainpastryshop.controllers.CustomerController">
+    <Label text="Order History" layoutX="50" layoutY="50" style="-fx-font-size: 24px;"/>
+    <ListView fx:id="orderHistoryListView" layoutX="50" layoutY="100" prefHeight="200" prefWidth="300"/>
+    <Button text="Track Order" layoutX="50" layoutY="320" onAction="#trackOrder"/>
+    <Button text="Back" layoutX="150" layoutY="320" onAction="#goBack"/>
+</AnchorPane>

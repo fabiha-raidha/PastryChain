@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.chainpastryshop.controllers.CustomerSupportController">
+    <Label text="Handle Order Issues" layoutX="50" layoutY="20" style="-fx-font-size: 24px;"/>
+    <Label text="Order ID:" layoutX="50" layoutY="80"/>
+    <TextField fx:id="orderIdField" layoutX="150" layoutY="75" prefWidth="300" promptText="Enter Order ID"/>
+    <Label text="Issue Description:" layoutX="50" layoutY="130"/>
+    <TextArea fx:id="issueDetails" layoutX="150" layoutY="125" prefHeight="150" prefWidth="300" promptText="Describe the issue here"/>
+    <Button text="Resolve Issue" layoutX="150" layoutY="300" onAction="#resolveOrderIssue"/>
+    <Button text="Back" layoutX="250" layoutY="300" onAction="#goBack"/>
+</AnchorPane>
+

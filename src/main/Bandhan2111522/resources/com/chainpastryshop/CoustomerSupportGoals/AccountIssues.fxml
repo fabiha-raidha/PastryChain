@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.chainpastryshop.controllers.CustomerSupportController">
+    <Label text="Account Support" layoutX="50" layoutY="50" style="-fx-font-size: 24px;"/>
+    <TextField fx:id="usernameField" layoutX="50" layoutY="100" promptText="Enter Username"/>
+    <TextField fx:id="emailField" layoutX="50" layoutY="150" promptText="Enter Email"/>
+    <Button text="Reset Password" layoutX="50" layoutY="200" onAction="#resetPassword"/>
+    <Button text="Update Profile" layoutX="200" layoutY="200" onAction="#updateProfile"/>
+    <Button text="Back" layoutX="150" layoutY="250" onAction="#goBack"/>
+</AnchorPane>
