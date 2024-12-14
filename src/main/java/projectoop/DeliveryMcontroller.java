@@ -66,6 +66,8 @@ public class DeliveryMcontroller {
     public void DelayedOnActionButton(ActionEvent actionEvent) {
         String DriverName= this.drivernameTF.getText();
         String OrderCode= this.ordercodeTF.getText();
+        String Deliverymanagement= "Delayed Deliveries:\nDriver Names" + DriverName+ "\n Order code: " + OrderCode + "\n";
+        this.textArea.appendText(Deliverymanagement);
 
     }
 }

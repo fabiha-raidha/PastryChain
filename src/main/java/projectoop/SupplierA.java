@@ -6,7 +6,10 @@ public class SupplierA {
     private String Suppliername;
     private LocalDate Auditdate;
 
-    public SupplierA(String suppliername, String supplierlist) {
+    public SupplierA(String suppliername, String auditdate) {
+    }
+
+    public SupplierA(String suppliername, LocalDate auditdate) {
         Suppliername = suppliername;
         Auditdate = auditdate;
     }
